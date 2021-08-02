@@ -8,16 +8,21 @@ body {
     height:200px;
     border: solid 1px black;
     display: flex;
+    position: relative;
+    left: 20vw;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .square {
     width:20px;
-    height: 20px ;
-   
+    height: 20px ; 
 }
 
 .snake {
     background-color: rgb(30, 77, 165);
+}
 
+.apple {
+    background-color: crimson;
 }
