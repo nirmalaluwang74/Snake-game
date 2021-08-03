@@ -1,22 +1,26 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: rgb(185, 212, 238);
+    
 }
 
+
 .grid {
-    width: 200px;
-    height:200px;
-    border: solid 1px black;
+    width: 400px;
+    height:400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
     position: relative;
-    left: 20vw;
+    left: 40vw;
     flex-wrap: wrap;
-    align-items: center;
+    background-color: white;
+    top:15vh;
 }
 
 .square {
-    width:20px;
-    height: 20px ; 
+    width: 40px;
+    height: 40px ; 
 }
 
 .snake {
@@ -24,5 +28,44 @@ body {
 }
 
 .apple {
-    background-color: crimson;
+    background-color: crimson;  
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    font-weight: 800; 
+}
+
+
+.h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: 800;  
+}
+
+.title {
+    text-align: center;
+}
+
+.second-title {
+    background-color: black;
+    color:white ;
+    width: 10vw;
+    padding: 1px;
+    text-align: center;
+    position: relative;
+    left: 43vw;
+    margin: 20px;
 }
